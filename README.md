@@ -1,74 +1,71 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# EmployWise User Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This React application integrates with the Reqres API to provide basic user management functionalities, including authentication, user listing, editing, and deleting users.
 
-## Available Scripts
+## Features
+### Level 1: Authentication
+- Login screen with email and password.
+- Redirects to the user list page after login.
 
-In the project directory, you can run:
+### Level 2: User List
+- Fetches and displays a paginated list of users.
+- Shows user details (first name, last name, avatar) in a structured format.
+- Implements pagination or lazy loading.
 
-### `npm start`
+### Level 3: Edit, Delete, and Update Users
+- Edit: Allows updating user details using a pre-filled form.
+- Delete: Removes the user from the list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- React (Frontend Framework)
+- Axios / Fetch API (HTTP Requests)
+- React Router (Navigation)
+- LocalStorage / SessionStorage (Token Persistence)
+- Tailwind CSS / Bootstrap / Custom CSS (Styling)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/employwise-user-management.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd employwise-user-management
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+### Login Page
+![image](https://github.com/user-attachments/assets/e1d5e2d5-8f98-4f1c-a0db-9e4ad83241ea)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### User List Page
+![image](https://github.com/user-attachments/assets/f4419109-61b4-49a3-a06a-9b8674c834ba)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Edit User Page
+![image](https://github.com/user-attachments/assets/eb0e047b-c08e-4485-b9bf-2f8614f82ac0)
 
-### `npm run eject`
+## Error Handling
+- Displays validation messages for invalid login attempts.
+- Shows error messages for API failures.
+- Redirects users to login if authentication token is missing or expired.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Bonus Features
+- Client-side search and filtering.
+- React Router for seamless navigation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
+This project is licensed under the MIT License.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Assignment
->>>>>>> 022c2fea947ce8cc4a50a90ac426999009e089e2
